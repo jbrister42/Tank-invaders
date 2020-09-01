@@ -1,2 +1,4 @@
 # Tank-invaders
-A space invaders type game using tanks in pygame, includes boss rounds, power-ups and increasing difficulty
+space to shoot
+left and right arrow keys to move
+currently, 'powerup' restores city health
