@@ -195,7 +195,7 @@ while is_running:
     enemwid = enemyimg.get_width()
     for shell in bullets:
         for enem in enemies:
-            if (abs(shell.x + shellwid/2-(enem.x+enemwid/2) < shellwid/2+enemwid/2) and (abs(shell.y-enem.y-16)<20)):
+            if (abs(shell.x + shellwid/2-(enem.x+enemwid/2)) < shellwid/2+enemwid/2 and (abs(shell.y-enem.y-16)<20)):
                 enemies.remove(enem)
                 bullets.remove(shell)
                 explosions.append(explod(enem.x,enem.y))
